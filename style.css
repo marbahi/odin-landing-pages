@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    box-sizing: border-box;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.section {
+    height: 300px;
+    margin: 0;
+}
+
+.section.one {
+    background-color: #1f2937;
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid #ddd; */
+}
+
+.section.two {
+    background-color: white;
+}
+
+h2 {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+.groups {
+    display: flex;
+    gap: 64px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 16px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+
+.section.three {
+    background-color: #e5e7eb;
+}
+
+.quotes {
+    font-size: 36px;
+    font-weight:200;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quoter {
+    font-size: 16;
+    font-weight: bold;
+}
+
+.section.fourth {
+    background-color: white;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.call-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    color: white;
+    font-size: 16px;
+}
+
+button.two {
+    border: 1px solid white;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
